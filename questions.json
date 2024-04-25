@@ -1,504 +1,615 @@
 {
   "html": [
     {
-      "id": 1,
-      "text": "Какой тег используется для создания ссылки?",
-      "hasOptions": true,
-      "options": [
-        { "id": 1, "text": "<link>", "isCorrect": false },
-        { "id": 2, "text": "<a>", "isCorrect": true },
-        { "id": 3, "text": "<href>", "isCorrect": false },
-        { "id": 4, "text": "<anchor>", "isCorrect": false }
-      ]
-    },
-    {
-      "id": 2,
-      "text": "Какой тег используется для вставки изображения?",
-      "hasOptions": true,
-      "options": [
-        { "id": 1, "text": "<img>", "isCorrect": true },
-        { "id": 2, "text": "<picture>", "isCorrect": false },
-        { "id": 3, "text": "<media>", "isCorrect": false },
-        { "id": 4, "text": "<graphic>", "isCorrect": false }
-      ]
-    },
-    {
-      "id": 3,
-      "text": "Какой тег находится в <html> определяет заголовок документа?",
-      "hasOptions": true,
-      "options": [
-        { "id": 1, "text": "<head>", "isCorrect": true },
-        { "id": 2, "text": "<header>", "isCorrect": false },
-        { "id": 3, "text": "<title>", "isCorrect": false },
-        { "id": 4, "text": "<meta>", "isCorrect": false }
-      ]
-    },
-    {
-      "id": 4,
-      "text": "Какой атрибут используется для определения альтернативного текста изображения?",
-      "hasOptions": true,
-      "options": [
-        { "id": 1, "text": "src", "isCorrect": false },
-        { "id": 2, "text": "alt", "isCorrect": true },
-        { "id": 3, "text": "title", "isCorrect": false },
-        { "id": 4, "text": "href", "isCorrect": false }
-      ]
-    },
-    {
-      "id": 5,
-      "text": "Какой атрибут позволяет открыть ссылку в новой вкладке?",
-      "hasOptions": true,
-      "options": [
-        { "id": 1, "text": "target=_blank", "isCorrect": true },
-        { "id": 2, "text": "target=blank", "isCorrect": false },
-        { "id": 3, "text": "target=_self", "isCorrect": false },
-        { "id": 4, "text": "target=_new", "isCorrect": false }
-      ]
-    },
-    {
       "id": 6,
-      "text": "Для чего используется атрибут 'placeholder'?",
-      "hasOptions": false,
-      "answer": "Атрибут 'placeholder' используется для отображения текстовой подсказки или примера ввода в поле формы до того, как пользователь начнет вводить свои данные."
+      "text": "Which tag is used to create a hyperlink?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "<a>", "isCorrect": true},
+        {"id": 2, "text": "<link>", "isCorrect": false},
+        {"id": 3, "text": "<href>", "isCorrect": false},
+        {"id": 4, "text": "<anchor>", "isCorrect": false}
+      ]
     },
     {
       "id": 7,
-      "text": "Как создать непронумерованный список в HTML?",
-      "hasOptions": false,
-      "answer": "Для создания такого списка в HTML используется тег <code>ul</code>, а для определения каждого пункта списка - тег <code>li</code>."
+      "text": "Which tag is used to define a table row?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "<tr>", "isCorrect": true},
+        {"id": 2, "text": "<td>", "isCorrect": false},
+        {"id": 3, "text": "<table>", "isCorrect": false},
+        {"id": 4, "text": "<th>", "isCorrect": false}
+      ]
     },
     {
       "id": 8,
-      "text": "Что такое HTML?",
-      "hasOptions": false,
-      "answer": "HTML (HyperText Markup Language) - это стандартизированный язык разметки, который используется для создания и разработки веб-страниц. Это система для разметки отдельных частей веб-страницы с использованием тегов, заключенных в угловые скобки."
+      "text": "Which attribute is used to define the language of a document?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "lang", "isCorrect": true},
+        {"id": 2, "text": "language", "isCorrect": false},
+        {"id": 3, "text": "locale", "isCorrect": false},
+        {"id": 4, "text": "xml:lang", "isCorrect": false}
+      ]
     },
     {
       "id": 9,
-      "text": "Что делает тег <!DOCTYPE>?",
-      "hasOptions": false,
-      "answer": "`Это декларация, которая информирует веб-браузер о версии языка разметки, использованной при создании веб-страницы. Это помогает браузеру корректно отобразить страницу."
+      "text": "Which tag is used to define a form in HTML?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "<form>", "isCorrect": true},
+        {"id": 2, "text": "<input>", "isCorrect": false},
+        {"id": 3, "text": "<fieldset>", "isCorrect": false},
+        {"id": 4, "text": "<button>", "isCorrect": false}
+      ]
     },
     {
       "id": 10,
-      "text": "Какой тег используется для создания таблицы?",
+      "text": "What is the correct HTML for inserting a copyright symbol?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "<table>", "isCorrect": true },
-        { "id": 2, "text": "<grid>", "isCorrect": false },
-        { "id": 3, "text": "<row>", "isCorrect": false },
-        { "id": 4, "text": "<column>", "isCorrect": false }
+        {"id": 1, "text": "&copy;", "isCorrect": true},
+        {"id": 2, "text": "&#169;", "isCorrect": false},
+        {"id": 3, "text": "<copy>", "isCorrect": false},
+        {"id": 4, "text": "<copyright>", "isCorrect": false}
       ]
     },
     {
       "id": 11,
-      "text": "Какой тег используется для создания заголовка таблицы?",
+      "text": "Which tag is used to define an italic text?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "<caption>", "isCorrect": false },
-        { "id": 2, "text": "<th>", "isCorrect": false },
-        { "id": 3, "text": "<thead>", "isCorrect": true },
-        { "id": 4, "text": "<title>", "isCorrect": false }
+        {"id": 1, "text": "<i>", "isCorrect": true},
+        {"id": 2, "text": "<italic>", "isCorrect": false},
+        {"id": 3, "text": "<em>", "isCorrect": false},
+        {"id": 4, "text": "<italicize>", "isCorrect": false}
       ]
     },
     {
       "id": 12,
-      "text": "Какой тег используется для создания строки таблицы?",
+      "text": "Which attribute specifies the URL of the page the link goes to?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "<td>", "isCorrect": false },
-        { "id": 2, "text": "<row>", "isCorrect": false },
-        { "id": 3, "text": "<line>", "isCorrect": false },
-        { "id": 4, "text": "<tr>", "isCorrect": true }
+        {"id": 1, "text": "href", "isCorrect": true},
+        {"id": 2, "text": "link", "isCorrect": false},
+        {"id": 3, "text": "url", "isCorrect": false},
+        {"id": 4, "text": "src", "isCorrect": false}
       ]
     },
     {
       "id": 13,
-      "text": "Какой тег используется для создания ячейки таблицы?",
+      "text": "Which tag is used to define a paragraph?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "<cell>", "isCorrect": false },
-        { "id": 2, "text": "<tr>", "isCorrect": false },
-        { "id": 3, "text": "<th>", "isCorrect": false },
-        { "id": 4, "text": "<td>", "isCorrect": true }
+        {"id": 1, "text": "<p>", "isCorrect": true},
+        {"id": 2, "text": "<paragraph>", "isCorrect": false},
+        {"id": 3, "text": "<para>", "isCorrect": false},
+        {"id": 4, "text": "<text>", "isCorrect": false}
       ]
     },
     {
       "id": 14,
-      "text": "Что такое семантические теги в HTML?",
-      "hasOptions": false,
-      "answer": "Семантические теги в HTML - это теги, которые передают информацию о смысле или назначении содержимого, а не только о его внешнем виде. Примеры семантических тегов: header, footer, article, section, nav и др. Они помогают создавать более структурированные и доступные веб-страницы."
+      "text": "Which tag is used to define a section of navigation links?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "<nav>", "isCorrect": true},
+        {"id": 2, "text": "<menu>", "isCorrect": false},
+        {"id": 3, "text": "<navbar>", "isCorrect": false},
+        {"id": 4, "text": "<navigation>", "isCorrect": false}
+      ]
     },
     {
       "id": 15,
-      "text": "Какой атрибут используется для установки фонового изображения?",
+      "text": "Which attribute is used to provide additional information about an element?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "background", "isCorrect": false },
-        { "id": 2, "text": "background-color", "isCorrect": false },
-        { "id": 3, "text": "bgcolor", "isCorrect": false },
-        { "id": 4, "text": "background-image", "isCorrect": true }
+        {"id": 1, "text": "title", "isCorrect": true},
+        {"id": 2, "text": "info", "isCorrect": false},
+        {"id": 3, "text": "desc", "isCorrect": false},
+        {"id": 4, "text": "extra", "isCorrect": false}
       ]
     },
     {
       "id": 16,
-      "text": "Какой тег используется для создания выпадающего списка?",
+      "text": "Which tag is used to create a list item?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "<dropdown>", "isCorrect": false },
-        { "id": 2, "text": "<list>", "isCorrect": false },
-        { "id": 3, "text": "<select>", "isCorrect": true },
-        { "id": 4, "text": "<option>", "isCorrect": false }
+        {"id": 1, "text": "<li>", "isCorrect": true},
+        {"id": 2, "text": "<list>", "isCorrect": false},
+        {"id": 3, "text": "<item>", "isCorrect": false},
+        {"id": 4, "text": "<ul>", "isCorrect": false}
       ]
     },
     {
       "id": 17,
-      "text": "Какой тег используется для вставки JavaScript кода в HTML документ?",
+      "text": "Which tag is used to define a level-one heading?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "<javascript>", "isCorrect": false },
-        { "id": 2, "text": "<script>", "isCorrect": true },
-        { "id": 3, "text": "<js>", "isCorrect": false },
-        { "id": 4, "text": "<java>", "isCorrect": false }
+        {"id": 1, "text": "<h1>", "isCorrect": true},
+        {"id": 2, "text": "<heading>", "isCorrect": false},
+        {"id": 3, "text": "<head>", "isCorrect": false},
+        {"id": 4, "text": "<header>", "isCorrect": false}
       ]
     },
     {
       "id": 18,
-      "text": "Какой атрибут используется для указания пути к изображению?",
+      "text": "Which attribute is used to specify an alternate text for an image, if the image cannot be displayed?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "src", "isCorrect": true },
-        { "id": 2, "text": "href", "isCorrect": false },
-        { "id": 3, "text": "path", "isCorrect": false },
-        { "id": 4, "text": "url", "isCorrect": false }
+        {"id": 1, "text": "alt", "isCorrect": true},
+        {"id": 2, "text": "src", "isCorrect": false},
+        {"id": 3, "text": "title", "isCorrect": false},
+        {"id": 4, "text": "href", "isCorrect": false}
       ]
     },
     {
       "id": 19,
-      "text": "Что делает атрибут 'readonly' в элементе формы?",
-      "hasOptions": false,
-      "answer": "Атрибут 'readonly' делает элемент формы только для чтения, что значит, что пользователь не может изменять значение элемента, но может просматривать его. Это может быть полезно, если вы хотите отобразить информацию, которая не должна быть изменена."
+      "text": "Which tag is used to define a horizontal line in HTML?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "<hr>", "isCorrect": true},
+        {"id": 2, "text": "<line>", "isCorrect": false},
+        {"id": 3, "text": "<linebreak>", "isCorrect": false},
+        {"id": 4, "text": "<break>", "isCorrect": false}
+      ]
     },
     {
       "id": 20,
-      "text": "Что такое веб-стандарты и зачем они нужны?",
-      "hasOptions": false,
-      "answer": "Веб-стандарты - это рекомендации, разработанные группами стандартов, такими как W3C или WHATWG, для обеспечения совместимости и устойчивости веб-технологий. Они включают рекомендации по HTML, CSS, JavaScript и другим веб-технологиям. Соблюдение веб-стандартов помогает обеспечить корректную работу веб-страниц в различных браузерах и устройствах, а также облегчить обслуживание и расширение веб-сайтов в будущем."
-    },
-    {
-      "id": 21,
-      "text": "Что такое отзывчивый (responsive) веб-дизайн?",
-      "hasOptions": false,
-      "answer": "Это подход к веб-дизайну, который позволяет веб-страницам корректно отображаться и функционировать на различных устройствах, включая мобильные телефоны, планшеты и настольные компьютеры, путем использования гибких макетов, гибких изображений и CSS медиазапросов для адаптации дизайна к различным размерам экрана и характеристикам устройств."
-    },
-    {
-      "id": 22,
-      "text": "Какой тег HTML используется для вставки видео?",
+      "text": "What is the purpose of the HTML <meta> tag?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "<media>", "isCorrect": false },
-        { "id": 2, "text": "<video>", "isCorrect": true },
-        { "id": 3, "text": "<movie>", "isCorrect": false },
-        { "id": 4, "text": "<multimedia>", "isCorrect": false }
+        {"id": 1, "text": "To provide metadata about the HTML document", "isCorrect": true},
+        {"id": 2, "text": "To define a hyperlink", "isCorrect": false},
+        {"id": 3, "text": "To create an image", "isCorrect": false},
+        {"id": 4, "text": "To define a form", "isCorrect": false}
       ]
-    },
-    {
-      "id": 23,
-      "text": "Какой тег используется для создания главного заголовка на веб-странице?",
-      "hasOptions": true,
-      "options": [
-        { "id": 1, "text": "<h1>", "isCorrect": true },
-        { "id": 2, "text": "<header>", "isCorrect": false },
-        { "id": 3, "text": "<title>", "isCorrect": false },
-        { "id": 4, "text": "<head>", "isCorrect": false }
-      ]
-    },
-    {
-      "id": 24,
-      "text": "Что делает тег <br>?",
-      "hasOptions": false,
-      "answer": "Он спользуется для переноса строки, что позволяет создать новую строку в том месте, где он размещен. Это удобный способ управления расположением текста на веб-странице без использования дополнительных стилей или элементов."
-    },
-    {
-      "id": 25,
-      "text": "Какой тег используется для создания упорядоченного списка?",
-      "hasOptions": true,
-      "options": [
-        { "id": 1, "text": "<ul>", "isCorrect": false },
-        { "id": 2, "text": "<ol>", "isCorrect": true },
-        { "id": 3, "text": "<li>", "isCorrect": false },
-        { "id": 4, "text": "<list>", "isCorrect": false }
-      ]
-    },
-    {
-      "id": 26,
-      "text": "Что такое DOM в контексте веб-разработки?",
-      "hasOptions": false,
-      "answer": "DOM (Document Object Model) - это программный интерфейс для веб-документов. Это представление структурированного документа в виде объектной модели, которое позволяет программам и скриптам взаимодействовать с содержимым, структурой и стилями веб-страницы. DOM представляет документ как дерево объектов, каждый из которых соответствует части страницы."
-    },
-    {
-      "id": 27,
-      "text": "Какой атрибут используется для определения стилей элемента на странице?",
-      "hasOptions": true,
-      "options": [
-        { "id": 1, "text": "style", "isCorrect": true },
-        { "id": 2, "text": "css", "isCorrect": false },
-        { "id": 3, "text": "styles", "isCorrect": false },
-        { "id": 4, "text": "stylesheet", "isCorrect": false }
-      ]
-    },
-    {
-      "id": 28,
-      "text": "Что такое атрибут 'alt' в теге <img>?",
-      "hasOptions": false,
-      "answer": "Он используется для предоставления альтернативного текста, который будет отображаться в случае, если изображение не может быть загружено. Это также может быть полезно для обеспечения доступности, поскольку скрин-ридеры могут использовать этот текст для описания изображения пользователям с ограниченными возможностями."
     }
   ],
+
   "css": [
     {
       "id": 1,
-      "text": "В чем разница между «сбросом» и «нормализацией» CSS? Что бы вы выбрали и почему?",
-      "hasOptions": false,
-      "answer": "Сброс (reset) сбрасывает все встроенные в браузер стили элементов. Normalize приводит стили к единому виду во всех браузерах. Лучше использовать Normalize из-за кроссбраузерности."
+      "text": "What does CSS stand for?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "Cascading Style Sheets", "isCorrect": true},
+        {"id": 2, "text": "Computer Style Sheets", "isCorrect": false},
+        {"id": 3, "text": "Creative Style Sheets", "isCorrect": false},
+        {"id": 4, "text": "Colorful Style Sheets", "isCorrect": false}
+      ]
     },
     {
       "id": 2,
-      "text": "Что такое специфичность селекторов CSS и как она работает?",
-      "hasOptions": false,
-      "answer": "Специфичность селектора (еще называют весом) это свойство определяющее приоритет стилевого правила, то есть то, какой стиль будет применен к HTML элементу в итоге. Например, используя какую-нибудь UI библиотеку, элементам этой библиотеки будут применены правила заданные авторами по умолчанию. При необходимости можно поменять стили на свои, «перебив» дефолтные более специфичным селектором.\n\nПодробнее тут: <a href='https://developer.mozilla.org/ru/docs/Web/CSS/Specificity' target='_blank'>Специфичность (MDN)</a>"
+      "text": "Which CSS property is used to change the text color of an element?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "color", "isCorrect": true},
+        {"id": 2, "text": "text-color", "isCorrect": false},
+        {"id": 3, "text": "font-color", "isCorrect": false},
+        {"id": 4, "text": "foreground-color", "isCorrect": false}
+      ]
     },
     {
       "id": 3,
-      "text": "Что такое CSS?",
-      "hasOptions": false,
-      "answer": "CSS (Cascading Style Sheets) - это язык стилей, используемый для описания внешнего вида и форматирования документа, написанного на языке разметки, таком как HTML. CSS позволяет разработчикам управлять макетом, шрифтами, цветами и другими стилистическими аспектами веб-страницы."
+      "text": "What does the z-index property in CSS do?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "Specifies the stack order of an element", "isCorrect": true},
+        {"id": 2, "text": "Specifies the transparency of an element", "isCorrect": false},
+        {"id": 3, "text": "Specifies the rotation of an element", "isCorrect": false},
+        {"id": 4, "text": "Specifies the text indentation of an element", "isCorrect": false}
+      ]
     },
     {
       "id": 4,
-      "text": "Почему, как правило, лучше разместить подключение CSS в <head>, а <script> перед тэгом </body>? Знаете ли вы какие-либо исключения, приведите примеры?",
-      "hasOptions": false,
-      "answer": "Стили рекомендуется подключать в head для того, чтобы страница как можно быстрее приняла свой внешний вид. Скрипты подключенные в head могут затормозить этот процесс, в связи с этим их рекомендуется подключать перед закрывающим тегом body. Исключением являются скрипты аналитики, для определения количества посетителей, которые не дождались загрузки страницы. В этом случае скрипт должен быть подключен в head."
+      "text": "Which CSS property is used to control the space between elements?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "margin", "isCorrect": true},
+        {"id": 2, "text": "padding", "isCorrect": false},
+        {"id": 3, "text": "border-spacing", "isCorrect": false},
+        {"id": 4, "text": "spacing", "isCorrect": false}
+      ]
     },
     {
       "id": 5,
-      "text": "Что делает свойство 'z-index' в CSS?",
-      "hasOptions": false,
-      "answer": "Свойство 'z-index' в CSS контролирует стековый порядок элементов по оси Z. Элемент с большим значением 'z-index' будет отображаться поверх элемента с меньшим значением 'z-index'."
+      "text": "What is the correct CSS syntax for making all the <p> elements bold?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "p {font-weight: bold;}", "isCorrect": true},
+        {"id": 2, "text": "<p style='font-weight: bold;'>", "isCorrect": false},
+        {"id": 3, "text": "p {text-weight: bold;}", "isCorrect": false},
+        {"id": 4, "text": "<p class='bold'>", "isCorrect": false}
+      ]
     },
     {
       "id": 6,
-      "text": "Какие есть способы отцентровать div?",
-      "hasOptions": false,
-      "answer": "Существует несколько способов отцентровать div в CSS, вот некоторые из них: \n1. Использование свойств margin и auto: `margin: 0 auto;`.\n2. Использование Flexbox: `display: flex; justify-content: center; align-items: center;`.\n3. Использование Grid Layout: `display: grid; place-items: center;`.\n4. Использование свойств text-align и inline-block: `text-align: center;` на родительском элементе и `display: inline-block;` на самом div.`."
+      "text": "Which CSS property is used to change the background color of an element?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "background-color", "isCorrect": true},
+        {"id": 2, "text": "color", "isCorrect": false},
+        {"id": 3, "text": "background", "isCorrect": false},
+        {"id": 4, "text": "bgcolor", "isCorrect": false}
+      ]
     },
     {
       "id": 7,
-      "text": "Какое свойство используется для установки цвета фона?",
+      "text": "What does the 'display: inline-block;' property do in CSS?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "color", "isCorrect": false },
-        { "id": 2, "text": "background-color", "isCorrect": true },
-        { "id": 3, "text": "bgcolor", "isCorrect": false },
-        { "id": 4, "text": "background", "isCorrect": false }
+        {"id": 1, "text": "It makes an element display as an inline-level block container.", "isCorrect": true},
+        {"id": 2, "text": "It hides an element.", "isCorrect": false},
+        {"id": 3, "text": "It floats an element to the left or right.", "isCorrect": false},
+        {"id": 4, "text": "It changes the font size of an element.", "isCorrect": false}
       ]
     },
     {
       "id": 8,
-      "text": "Какое свойство позволяет установить внешние отступы элемента?",
+      "text": "Which CSS property is used to add shadows to text?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "padding", "isCorrect": false },
-        { "id": 2, "text": "border", "isCorrect": false },
-        { "id": 3, "text": "margin", "isCorrect": true },
-        { "id": 4, "text": "spacing", "isCorrect": false }
+        {"id": 1, "text": "text-shadow", "isCorrect": true},
+        {"id": 2, "text": "shadow-text", "isCorrect": false},
+        {"id": 3, "text": "box-shadow", "isCorrect": false},
+        {"id": 4, "text": "text-effect", "isCorrect": false}
       ]
     },
     {
       "id": 9,
-      "text": "Какое свойство используется для установки шрифта?",
+      "text": "What does the 'position: relative;' property do in CSS?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "font-weight", "isCorrect": false },
-        { "id": 2, "text": "font-style", "isCorrect": false },
-        { "id": 3, "text": "text-font", "isCorrect": false },
-        { "id": 4, "text": "font-family", "isCorrect": true }
+        {"id": 1, "text": "It positions an element relative to its normal position.", "isCorrect": true},
+        {"id": 2, "text": "It positions an element absolutely.", "isCorrect": false},
+        {"id": 3, "text": "It positions an element relative to the viewport.", "isCorrect": false},
+        {"id": 4, "text": "It positions an element at the bottom of its container.", "isCorrect": false}
       ]
     },
     {
       "id": 10,
-      "text": "Какое свойство CSS позволяет контролировать видимость элемента в DOM, но при этом сохраняет его место?",
+      "text": "Which CSS property is used to specify the space between the border and the content of an element?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "display: none", "isCorrect": false },
-        { "id": 2, "text": "visibility: hidden", "isCorrect": true },
-        { "id": 3, "text": "is-visible: 0", "isCorrect": false },
-        { "id": 4, "text": "color: transparent", "isCorrect": false }
+        {"id": 1, "text": "padding", "isCorrect": true},
+        {"id": 2, "text": "margin", "isCorrect": false},
+        {"id": 3, "text": "spacing", "isCorrect": false},
+        {"id": 4, "text": "border-spacing", "isCorrect": false}
       ]
     },
     {
       "id": 11,
-      "text": "Какое свойство CSS используется для установки теней элементов?",
+      "text": "What does the 'box-sizing: border-box;' property do in CSS?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "box-shadow", "isCorrect": true },
-        { "id": 2, "text": "text-shadow", "isCorrect": false },
-        { "id": 3, "text": "shadow", "isCorrect": false },
-        { "id": 4, "text": "border-shadow", "isCorrect": false }
+        {"id": 1, "text": "It includes the padding and border in the element's total width and height.", "isCorrect": true},
+        {"id": 2, "text": "It includes the margin in the element's total width and height.", "isCorrect": false},
+        {"id": 3, "text": "It positions the element relative to its normal position.", "isCorrect": false},
+        {"id": 4, "text": "It positions the element absolutely.", "isCorrect": false}
       ]
     },
     {
       "id": 12,
-      "text": "Какой селектор выбирает все элементы .child, которые являются непосредственными дочерними элементами .parent?",
+      "text": "Which CSS property is used to change the size of an element's font?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": ".parent + .child", "isCorrect": false },
-        { "id": 2, "text": ".parent ~ .child", "isCorrect": false },
-        { "id": 3, "text": ".parent > .child", "isCorrect": true },
-        { "id": 4, "text": ".parent .child", "isCorrect": false }
+        {"id": 1, "text": "font-size", "isCorrect": true},
+        {"id": 2, "text": "text-size", "isCorrect": false},
+        {"id": 3, "text": "size", "isCorrect": false},
+        {"id": 4, "text": "font", "isCorrect": false}
       ]
     },
     {
       "id": 13,
-      "text": "Какой селектор CSS выбирает все элементы, которые имеют указанный атрибут, начинающийся с определенной строки?",
+      "text": "What is the correct CSS syntax for making all the <h2> elements italic?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "[attr=value]", "isCorrect": false },
-        { "id": 2, "text": "[attr~=value]", "isCorrect": false },
-        { "id": 3, "text": "[attr|=value]", "isCorrect": false },
-        { "id": 4, "text": "[attr^=value]", "isCorrect": true }
+        {"id": 1, "text": "h2 {font-style: italic;}", "isCorrect": true},
+        {"id": 2, "text": "h2 {italic: true;}", "isCorrect": false},
+        {"id": 3, "text": "<h2 style='font-style: italic;'>", "isCorrect": false},
+        {"id": 4, "text": "h2 {style: italic;}", "isCorrect": false}
       ]
     },
     {
       "id": 14,
-      "text": "Какой селектор CSS выбирает все элементы, которые имеют указанный атрибут, заканчивающийся определенной строкой?",
+      "text": "Which CSS property is used to add a border to an element?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "[attr=value]", "isCorrect": false },
-        { "id": 2, "text": "[attr~=value]", "isCorrect": false },
-        { "id": 3, "text": "[attr|=value]", "isCorrect": false },
-        { "id": 4, "text": "[attr$=value]", "isCorrect": true }
+        {"id": 1, "text": "border", "isCorrect": true},
+        {"id": 2, "text": "border-style", "isCorrect": false},
+        {"id": 3, "text": "border-width", "isCorrect": false},
+        {"id": 4, "text": "border-color", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 15,
+      "text": "What is the purpose of the CSS 'clear' property?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "To control the behavior of floated elements.", "isCorrect": true},
+        {"id": 2, "text": "To add space between elements.", "isCorrect": false},
+        {"id": 3, "text": "To specify the color of an element.", "isCorrect": false},
+        {"id": 4, "text": "To center-align text.", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Which CSS property is used to make text bold?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "font-weight", "isCorrect": true},
+        {"id": 2, "text": "text-weight", "isCorrect": false},
+        {"id": 3, "text": "bold", "isCorrect": false},
+        {"id": 4, "text": "font-style", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 17,
+      "text": "What does the 'float' property do in CSS?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "It positions an element to the left or right of its container.", "isCorrect": true},
+        {"id": 2, "text": "It centers an element horizontally within its container.", "isCorrect": false},
+        {"id": 3, "text": "It expands an element to fill the width of its container.", "isCorrect": false},
+        {"id": 4, "text": "It specifies the spacing between the border and content of an element.", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Which CSS property is used to specify the font family for an element?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "font-family", "isCorrect": true},
+        {"id": 2, "text": "font-type", "isCorrect": false},
+        {"id": 3, "text": "family", "isCorrect": false},
+        {"id": 4, "text": "font", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 19,
+      "text": "What does the 'overflow: hidden;' property do in CSS?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "It hides any content that overflows the element's box.", "isCorrect": true},
+        {"id": 2, "text": "It displays all content that overflows the element's box.", "isCorrect": false},
+        {"id": 3, "text": "It positions an element absolutely.", "isCorrect": false},
+        {"id": 4, "text": "It specifies the background color of an element.", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Which CSS property is used to change the spacing between lines of text?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "line-height", "isCorrect": true},
+        {"id": 2, "text": "spacing", "isCorrect": false},
+        {"id": 3, "text": "letter-spacing", "isCorrect": false},
+        {"id": 4, "text": "word-spacing", "isCorrect": false}
       ]
     }
   ],
   "javascript": [
     {
       "id": 1,
-      "text": "Что такое чистая функция?",
-      "hasOptions": false,
-      "answer": "Это функция, которая возвращает одинаковый результат, когда вызывается с одним и тем же набором аргументов, а также не имеет побочных эффектов (side effects)"
+      "text": "What is JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "A scripting language that enables you to create dynamically updating content, control multimedia, animate images, and much more.", "isCorrect": true},
+        {"id": 2, "text": "A markup language used for creating web pages.", "isCorrect": false},
+        {"id": 3, "text": "A programming language that focuses on the structure of content within a web page.", "isCorrect": false},
+        {"id": 4, "text": "A style sheet language used for describing the presentation of a document written in a markup language.", "isCorrect": false}
+      ]
     },
     {
       "id": 2,
-      "text": "Что такое замыкание?",
-      "hasOptions": false,
-      "answer": "Замыкания – это способность функции запоминать лексическое окружение, в котором она была создана, то есть хранить в себе ссылку на это окружение и обращаться к нему.\n\n<a href='https://youtu.be/mI6Jcfsgma4?si=46DV3mXPF6mDTTPs' target='_blank'>Подробнейшее видео про замыкание</a>"
+      "text": "What is the output of the following code: console.log(1 + '2' + '2')?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "'122'", "isCorrect": true},
+        {"id": 2, "text": "'14'", "isCorrect": false},
+        {"id": 3, "text": "'32'", "isCorrect": false},
+        {"id": 4, "text": "SyntaxError", "isCorrect": false}
+      ]
     },
     {
       "id": 3,
-      "text": "let VS const: почему лучше использовать const, когда это возможно?",
-      "hasOptions": false,
-      "answer": "Использование const дает два преимущества:\n1) Безопасность: объявление переменных через const защищает от неожиданного изменения значения переменной в коде, что может часто приводит к ошибкам и неожиданному поведению программы.\n2) Читаемость: использование const позволяет читателю кода понимать, что значение переменной не будет изменяться в течение выполнения программы. Это делает код более понятным и уменьшает возможность ошибок.\n\nПодробнее: <a href='https://youtu.be/07FllcTRj84?si=q7v60ZvHYBoRSSen' target='_blank'>Видео про VAR/LET/CONST</a>"
+      "text": "What is the purpose of the 'use strict' directive in JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "To enable strict mode, which catches common coding errors and prevents unsafe actions", "isCorrect": true},
+        {"id": 2, "text": "To include external JavaScript files", "isCorrect": false},
+        {"id": 3, "text": "To declare a variable in strict mode", "isCorrect": false},
+        {"id": 4, "text": "To define a function in strict mode", "isCorrect": false}
+      ]
     },
     {
       "id": 4,
-      "text": "Что такое промисы (Promises) в JavaScript?",
-      "hasOptions": false,
-      "answer": "Промисы – это объекты, которые представляют результат асинхронной операции. Они могут находиться в одном из трех состояний: ожидание (pending), выполнено (fulfilled) или отклонено (rejected)."
+      "text": "How do you declare a variable in JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "var", "isCorrect": true},
+        {"id": 2, "text": "let", "isCorrect": false},
+        {"id": 3, "text": "const", "isCorrect": false},
+        {"id": 4, "text": "int", "isCorrect": false}
+      ]
     },
     {
       "id": 5,
-      "text": "Что такое деструктуризация в JavaScript?",
-      "hasOptions": false,
-      "answer": "Деструктуризация позволяет извлекать отдельные свойства из объектов или элементы из массивов и присваивать их переменным в более удобной форме. Например, вот так мы можем одной строкой извлечь имя и адрес пользователя из объекта user:\n<code>const {name, address} = user;</code>"
+      "text": "What is the result of the expression: typeof NaN?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "'number'", "isCorrect": true},
+        {"id": 2, "text": "'NaN'", "isCorrect": false},
+        {"id": 3, "text": "'undefined'", "isCorrect": false},
+        {"id": 4, "text": "'string'", "isCorrect": false}
+      ]
     },
     {
       "id": 6,
-      "text": "Что такое стрелочные функции в JavaScript?",
-      "hasOptions": false,
-      "answer": "Стрелочные функции — это синтаксически компактный способ записи функций в JavaScript, который не имеет своего собственного 'this'. Они часто используются для создания анонимных функций.\n\n<a href='https://youtu.be/nGVYdna4kq4?si=1k0J9F-MYxWCaq6M' target='_blank'>Подробное видео про функции в JS</a>"
+      "text": "What does the 'typeof' operator do in JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "Returns the type of a variable or expression", "isCorrect": true},
+        {"id": 2, "text": "Returns the value of a variable or expression", "isCorrect": false},
+        {"id": 3, "text": "Converts a string to uppercase", "isCorrect": false},
+        {"id": 4, "text": "Converts a string to lowercase", "isCorrect": false}
+      ]
     },
     {
       "id": 7,
-      "text": "Что такое hoisting в JavaScript?",
-      "hasOptions": false,
-      "answer": "Hoisting — это механизм в JavaScript, при котором переменные и объявления функций перемещаются на верх своей области видимости перед выполнением кода."
+      "text": "What is the purpose of the '===' operator in JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "Checks if two values are equal in both value and type", "isCorrect": true},
+        {"id": 2, "text": "Checks if two values are equal in value but not necessarily in type", "isCorrect": false},
+        {"id": 3, "text": "Assigns a value to a variable", "isCorrect": false},
+        {"id": 4, "text": "Performs strict addition", "isCorrect": false}
+      ]
     },
     {
       "id": 8,
-      "text": "Какой метод используется для добавления элемента в массив?",
+      "text": "What does the 'forEach' method do in JavaScript?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "splice()", "isCorrect": false },
-        { "id": 2, "text": "pop()", "isCorrect": false },
-        { "id": 3, "text": "shift()", "isCorrect": false },
-        { "id": 4, "text": "push()", "isCorrect": true }
+        {"id": 1, "text": "Calls a function once for each element in an array", "isCorrect": true},
+        {"id": 2, "text": "Returns the first element of an array", "isCorrect": false},
+        {"id": 3, "text": "Combines all elements of an array into a single string", "isCorrect": false},
+        {"id": 4, "text": "Checks if an array contains a specific value", "isCorrect": false}
       ]
     },
     {
       "id": 9,
-      "text": "Какой объект представляет текущее окно браузера?",
+      "text": "What is the purpose of the 'push' method in JavaScript arrays?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "document", "isCorrect": false },
-        { "id": 2, "text": "screen", "isCorrect": false },
-        { "id": 3, "text": "window", "isCorrect": true },
-        { "id": 4, "text": "browser", "isCorrect": false }
+        {"id": 1, "text": "Adds one or more elements to the end of an array and returns the new length", "isCorrect": true},
+        {"id": 2, "text": "Removes the last element of an array", "isCorrect": false},
+        {"id": 3, "text": "Sorts the elements of an array", "isCorrect": false},
+        {"id": 4, "text": "Returns the index of the first occurrence of a specified value in an array", "isCorrect": false}
       ]
     },
     {
       "id": 10,
-      "text": "Какой оператор используется для сравнения на строгое равенство?",
+      "text": "What does the 'NaN' value represent in JavaScript?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "==", "isCorrect": false },
-        { "id": 2, "text": "===", "isCorrect": true },
-        { "id": 3, "text": "=", "isCorrect": false },
-        { "id": 4, "text": "!==", "isCorrect": false }
+        {"id": 1, "text": "Not a Number", "isCorrect": true},
+        {"id": 2, "text": "Null and Notable", "isCorrect": false},
+        {"id": 3, "text": "No Assigned Number", "isCorrect": false},
+        {"id": 4, "text": "Negative And Null", "isCorrect": false}
       ]
     },
     {
       "id": 11,
-      "text": "Какой метод используется для удаления последнего элемента из массива?",
+      "text": "What does the 'Math.random()' function in JavaScript do?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "splice()", "isCorrect": false },
-        { "id": 2, "text": "pop()", "isCorrect": true },
-        { "id": 3, "text": "shift()", "isCorrect": false },
-        { "id": 4, "text": "push()", "isCorrect": false }
+        {"id": 1, "text": "Returns a random number between 0 (inclusive) and 1 (exclusive)", "isCorrect": true},
+        {"id": 2, "text": "Rounds a number to the nearest integer", "isCorrect": false},
+        {"id": 3, "text": "Returns the value of pi", "isCorrect": false},
+        {"id": 4, "text": "Returns the maximum value in a set of numbers", "isCorrect": false}
       ]
     },
     {
       "id": 12,
-      "text": "Какой метод в JavaScript используется для преобразования объекта в строку JSON?",
+      "text": "What does the 'splice()' method do in JavaScript arrays?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "JSON.stringify()", "isCorrect": true },
-        { "id": 2, "text": "JSON.parse()", "isCorrect": false },
-        { "id": 3, "text": "JSON.toText()", "isCorrect": false },
-        { "id": 4, "text": "JSON.toString()", "isCorrect": false }
+        {"id": 1, "text": "Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place", "isCorrect": true},
+        {"id": 2, "text": "Returns a new array with the results of calling a provided function on every element in the calling array", "isCorrect": false},
+        {"id": 3, "text": "Checks if all elements in an array pass a test specified by a function", "isCorrect": false},
+        {"id": 4, "text": "Returns the first index at which a given element can be found in the array, or -1 if it is not present", "isCorrect": false}
       ]
     },
     {
       "id": 13,
-      "text": "Какой объект в JavaScript используется для работы с датой и временем?",
+      "text": "What is the purpose of the 'split()' method in JavaScript?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "Time", "isCorrect": false },
-        { "id": 2, "text": "Date", "isCorrect": true },
-        { "id": 3, "text": "Calendar", "isCorrect": false },
-        { "id": 4, "text": "DateTime", "isCorrect": false }
+        {"id": 1, "text": "Splits a string into an array of substrings", "isCorrect": true},
+        {"id": 2, "text": "Combines all elements of an array into a single string", "isCorrect": false},
+        {"id": 3, "text": "Returns the first element of an array", "isCorrect": false},
+        {"id": 4, "text": "Sorts the elements of an array", "isCorrect": false}
       ]
     },
     {
       "id": 14,
-      "text": "Какой метод массива в JavaScript используется для фильтрации элементов по определенному критерию?",
+      "text": "What is the result of the expression: typeof([])?",
       "hasOptions": true,
       "options": [
-        { "id": 1, "text": "map()", "isCorrect": false },
-        { "id": 2, "text": "filter()", "isCorrect": true },
-        { "id": 3, "text": "reduce()", "isCorrect": false },
-        { "id": 4, "text": "forEach()", "isCorrect": false }
+        {"id": 1, "text": "'object'", "isCorrect": true},
+        {"id": 2, "text": "'array'", "isCorrect": false},
+        {"id": 3, "text": "'null'", "isCorrect": false},
+        {"id": 4, "text": "'undefined'", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 15,
+      "text": "What does the 'map()' method do in JavaScript arrays?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "Creates a new array with the results of calling a provided function on every element in the calling array", "isCorrect": true},
+        {"id": 2, "text": "Returns the first element of an array", "isCorrect": false},
+        {"id": 3, "text": "Checks if all elements in an array pass a test specified by a function", "isCorrect": false},
+        {"id": 4, "text": "Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 16,
+      "text": "What does the 'typeof(null)' expression return in JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "'object'", "isCorrect": true},
+        {"id": 2, "text": "'null'", "isCorrect": false},
+        {"id": 3, "text": "'undefined'", "isCorrect": false},
+        {"id": 4, "text": "'number'", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 17,
+      "text": "What is the result of the expression: 5 + '3'?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "'53'", "isCorrect": true},
+        {"id": 2, "text": "'8'", "isCorrect": false},
+        {"id": 3, "text": "'15'", "isCorrect": false},
+        {"id": 4, "text": "'35'", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 18,
+      "text": "What does the 'pop()' method do in JavaScript arrays?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "Removes the last element of an array and returns that element", "isCorrect": true},
+        {"id": 2, "text": "Adds one or more elements to the end of an array and returns the new length", "isCorrect": false},
+        {"id": 3, "text": "Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place", "isCorrect": false},
+        {"id": 4, "text": "Creates a new array with the results of calling a provided function on every element in the calling array", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 19,
+      "text": "What does the 'length' property return for an empty array in JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "0", "isCorrect": true},
+        {"id": 2, "text": "1", "isCorrect": false},
+        {"id": 3, "text": "undefined", "isCorrect": false},
+        {"id": 4, "text": "null", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 20,
+      "text": "What does the 'charAt()' method do in JavaScript?",
+      "hasOptions": true,
+      "options": [
+        {"id": 1, "text": "Returns the character at a specified index in a string", "isCorrect": true},
+        {"id": 2, "text": "Returns the Unicode of the character at a specified index in a string", "isCorrect": false},
+        {"id": 3, "text": "Returns the index of the first occurrence of a specified character in a string", "isCorrect": false},
+        {"id": 4, "text": "Checks if a string contains another string", "isCorrect": false}
       ]
     }
   ]
+
 }
